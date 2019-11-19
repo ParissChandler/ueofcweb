@@ -1,6 +1,7 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby'
+import PropTypes from 'prop-types'
+import React from 'react'
+import BTPlogo from '../images/BTP_circle.png'
 
 const Header = ({ siteTitle, activeMenu }) => (
   <header>
@@ -10,9 +11,9 @@ const Header = ({ siteTitle, activeMenu }) => (
           <h1>
             <Link to="/">
               <span className="logo mr-2">
-                <img src="/ueofcweb/images/icon-puple-64.png" />
+                <img src={BTPlogo} />
               </span>
-              UltronEle
+              Black Tech Pipeline
             </Link>
           </h1>
         </div>
@@ -25,22 +26,22 @@ const Header = ({ siteTitle, activeMenu }) => (
             <input type="checkbox" id="drop" />
             <ul className="menu">
               <li>
-                <Link to="/" className={activeMenu == "index" ? "active" : ""}>
+                <Link to="/" className={activeMenu == 'index' ? 'active' : ''}>
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   to="/product"
-                  className={activeMenu == "product" ? "active" : ""}
+                  className={activeMenu == 'product' ? 'active' : ''}
                 >
-                  Product
+                  About
                 </Link>
               </li>
               <li>
                 <Link
                   to="/price"
-                  className={activeMenu == "price" ? "active" : ""}
+                  className={activeMenu == 'price' ? 'active' : ''}
                 >
                   Pricing
                 </Link>
@@ -48,7 +49,7 @@ const Header = ({ siteTitle, activeMenu }) => (
               <li>
                 <Link
                   to="/contact"
-                  className={activeMenu == "contact" ? "active" : ""}
+                  className={activeMenu == 'contact' ? 'active' : ''}
                 >
                   Contact Us
                 </Link>
