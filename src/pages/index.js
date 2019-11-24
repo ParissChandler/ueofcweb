@@ -23,16 +23,18 @@ const IndexPage = () => (
               <br />
             </h3>
             <p className="text-sty-banner">
-              Black Tech Pipeline is a platform bringing resources, opportunity,
-              and continued support to Black technologists in the technology
-              industry. We are an online community which came together from a
-              movement that started on Twitter, #BlackTechTwitter. Our community
-              is filled with Black technologists working in every sector of the
-              tech industry, all around the world.
+              Black Tech Pipeline is a platform extending resources,
+              opportunity, and continued support to Black technologists in the
+              technology industry. We're an online community which formed after
+              a movement created on Twitter - #BlackTechTwitter. Our community
+              is filled with technologists working in every sector of the
+              industry, all around the world.
+              <br />
+              What 'Pipeline Problem'?
             </p>
             <div className="row">
               <a
-                href="https://ultronele.netlify.com"
+                href="https://airtable.com/shrXi1IeLV3jpWcMZ"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn button-style mt-md-5 mt-4 read-more"
@@ -105,8 +107,8 @@ const IndexPage = () => (
               <div className="card-body">
                 <h4 className="my-4">Job candidates</h4>
                 <p>
-                  Get qualified candidates ranging from developers, to
-                  designers, cybersec engineers, and more in your pipeline.
+                  Vet qualified candidates of all skill sets, from all fields of
+                  the industry for your companies open role opportunities.
                 </p>
               </div>
               {/** <a href="about.html" class="button-w3ls btn mt-sm-5 mt-4">Read More</a> */}
@@ -123,7 +125,7 @@ const IndexPage = () => (
                 <h4 className="my-4">Speakers</h4>
                 <p>
                   Seeking speakers for your next event? Extend opportunities to
-                  our speaker newbies, and veterans.
+                  our speaker veterans, or first timers.
                 </p>
               </div>
               {/** <a href="about.html" class="button-w3ls btn mt-sm-5 mt-4">Read More</a> */}
@@ -139,9 +141,8 @@ const IndexPage = () => (
               <div className="card-body">
                 <h4 className="my-4">Advertisements</h4>
                 <p>
-                  Advertise your open roles in our newsletter and/or get them
-                  tweeted on our Twitter accounts of over 18K followers
-                  combined.
+                  Get exposure by advertising opportunities in our newsletter
+                  and Twitter accounts of over 19K followers combined.
                 </p>
               </div>
               {/** <a href="about.html" class="button-w3ls btn mt-sm-5 mt-4">Read More</a> */}
@@ -155,16 +156,23 @@ const IndexPage = () => (
       <div className="container py-xl-3 py-lg-3">
         <div className="row">
           <div className="col-lg-6 about-right-faq">
-            <h6>Product Usage Scenarios</h6>
+            {/* <h6>Service Usage Scenarios</h6> */}
             <h3 className="text-da">
-              Whom we can serve with ultronele exactly?
+              What to expect when you work with Black Tech Pipeline
             </h3>
             <p className="mt-4">
-              UltronEle open many possiblities for users who may want to do such
-              things but hardly to accomplish with other existing software:
+              Black Tech Pipeline has a community full of skilled and qualified
+              technologists seeking their next opportunity. Our job is to direct
+              candidates with the skill sets that fulfill open opportunities, to
+              employers or organizers who seek our services. We offer continued
+              support and communication to both candidates and employers.
             </p>
-            <ul className="w3l-right-book mt-4">
-              <li>Small company training for new employees</li>
+            {/* <ul className="w3l-right-book mt-4">
+              <li>
+                Candidates of the skill level necessary to fill your open role
+                will be recruited by Black Tech Pipeline and presented to the
+                client
+              </li>
               <li>
                 Medium size enterpirse education platform setup with limited
                 budget
@@ -181,7 +189,7 @@ const IndexPage = () => (
                 Anyone who want to share knowledge in an acceptable and
                 innovative way{' '}
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className="col-lg-6 left-wthree-img text-right">
             <img src="images/b1.png" alt="" className="img-fluid mt-5" />
@@ -192,11 +200,10 @@ const IndexPage = () => (
 
     <section className="banner-bottom-w3layouts bg-li py-5" id="services">
       <div className="container py-xl-5 py-lg-3">
-        <h3 className="tittle text-center font-weight-bold">Our Services</h3>
-        <p className="sub-tittle text-center mt-3 mb-sm-5 mb-4">
-          UltronEle offers a minimal elearning tool and flexible services for a
-          variety of user scenarios, even if no budget or no IT knowledge.
-        </p>
+        <h3 className="tittle text-center font-weight-bold">
+          Keep up with our community
+        </h3>
+        <p className="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p>
         <div className="row pt-lg-4">
           <div className="col-lg-4 about-in text-center">
             <div className="card">
@@ -204,11 +211,8 @@ const IndexPage = () => (
                 <div className="bg-clr-w3l">
                   <span className="fa fa-wrench"></span>
                 </div>
-                <h5 className="card-title mt-4 mb-3">Free Deployment</h5>
-                <p className="card-text">
-                  We give all our clients product deployment support for free,
-                  from zero to online.
-                </p>
+                <h5 className="card-title mt-4 mb-3">Newsletter</h5>
+                <p className="card-text">Read interviews from </p>
               </div>
             </div>
           </div>
@@ -218,7 +222,7 @@ const IndexPage = () => (
                 <div className="bg-clr-w3l">
                   <span className="fa fa-cogs"></span>
                 </div>
-                <h5 className="card-title mt-4 mb-3">Custom Development</h5>
+                <h5 className="card-title mt-4 mb-3">Slack</h5>
                 <p className="card-text">
                   We help our paid member to implement their pages and
                   functionalities.
@@ -250,7 +254,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="bottom-count py-5" id="stats">
+    {/* <section className="bottom-count py-5" id="stats">
       <div className="container py-xl-5 py-lg-3">
         <div className="row">
           <div className="col-lg-5 left-img-w3ls">
@@ -301,7 +305,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section className="partners py-5" id="partners">
       <div className="container py-xl-5 py-lg-3">
