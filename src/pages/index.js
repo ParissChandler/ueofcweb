@@ -22,19 +22,18 @@ const IndexPage = () => (
               Black Tech Pipeline
               <br />
             </h3>
+            <h4 style={{ marginTop: `20px` }}>What 'Pipeline problem'? </h4>
             <p className="text-sty-banner">
               Black Tech Pipeline is a platform extending resources,
               opportunity, and continued support to Black technologists in the
               technology industry. We're an online community which formed after
-              a movement created on Twitter - #BlackTechTwitter. Our community
-              is filled with technologists working in every sector of the
-              industry, all around the world.
-              <br />
-              What 'Pipeline Problem'?
+              a movement that began on Twitter - #BlackTechTwitter. Our
+              community is filled with technologists working in every sector of
+              the industry, all around the world.
             </p>
             <div className="row">
               <a
-                href="https://airtable.com/shrXi1IeLV3jpWcMZ"
+                href="https://airtable.com/shrD3E9QUMhzpYukC"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn button-style mt-md-5 mt-4 read-more"
@@ -53,7 +52,7 @@ const IndexPage = () => (
             </div>
           </div>
           <div className="banner-img">
-            <img src="images/banner-ovw2.png" alt="" className="img-fluid" />
+            <img src="" alt="" className="img-fluid" />
           </div>
         </div>
       </div>
@@ -162,10 +161,11 @@ const IndexPage = () => (
             </h3>
             <p className="mt-4">
               Black Tech Pipeline has a community full of skilled and qualified
-              technologists seeking their next opportunity. Our job is to direct
-              candidates with the skill sets that fulfill open opportunities, to
-              employers or organizers who seek our services. We offer continued
-              support and communication to both candidates and employers.
+              candidates seeking their next opportunity. Our job is to direct
+              candidates with particular skill sets that fulfill open
+              opportunities, to employers and organizers who seek to fill those
+              opportunities. We offer continued support and communication to
+              both candidates and employers even after offers have been signed.
             </p>
             {/* <ul className="w3l-right-book mt-4">
               <li>
@@ -201,7 +201,7 @@ const IndexPage = () => (
     <section className="banner-bottom-w3layouts bg-li py-5" id="services">
       <div className="container py-xl-5 py-lg-3">
         <h3 className="tittle text-center font-weight-bold">
-          Keep up with our community
+          Keep up with the community
         </h3>
         <p className="sub-tittle text-center mt-3 mb-sm-5 mb-4"></p>
         <div className="row pt-lg-4">
@@ -212,7 +212,11 @@ const IndexPage = () => (
                   <span className="fa fa-wrench"></span>
                 </div>
                 <h5 className="card-title mt-4 mb-3">Newsletter</h5>
-                <p className="card-text">Read interviews from </p>
+                <p className="card-text">
+                  Read up on gem dropping interviews from influential
+                  technologists and entrepreneurs in the Black Tech Pipeline
+                  community.
+                </p>
               </div>
             </div>
           </div>
@@ -224,8 +228,8 @@ const IndexPage = () => (
                 </div>
                 <h5 className="card-title mt-4 mb-3">Slack</h5>
                 <p className="card-text">
-                  We help our paid member to implement their pages and
-                  functionalities.
+                  Join us in Slack where community members continue learning,
+                  collaborating, and communicating in a safe space.
                 </p>
               </div>
             </div>
@@ -245,12 +249,12 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <a
+        {/* <a
           href="pricing.html"
           className="btn button-style button-style-2 mt-sm-5 mt-4 read-more"
         >
           Read More
-        </a>
+        </a> */}
       </div>
     </section>
 
