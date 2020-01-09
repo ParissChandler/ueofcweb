@@ -30,14 +30,14 @@ const Header = ({ siteTitle, activeMenu }) => (
                   Home
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/product"
                   className={activeMenu == 'product' ? 'active' : ''}
                 >
                   About
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link
                   to="/price"
@@ -76,14 +76,6 @@ const Header = ({ siteTitle, activeMenu }) => (
               </button>
             </form>
           </div>
-
-          <a
-            className="dwn-w3ls btn"
-            href="https://github.com/runbytech/ultron-ele"
-            target="_blank"
-          >
-            <span className="fab fa-github"></span>
-          </a>
         </div>
       </div>
     </div>

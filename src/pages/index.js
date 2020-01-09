@@ -315,8 +315,8 @@ const IndexPage = () => (
       <div className="container py-xl-5 py-lg-3">
         <h3 className="tittle text-center font-weight-bold">Testimonials</h3>
         <p className="sub-tittle text-center mt-3 mb-sm-5 mb-4">
-          we utilize the power of mature and emerging internet hosting and build
-          platform to fast deliver our product, service, content.
+          Read what our clients had to say after using Black Tech Pipeline's
+          services.
         </p>
         <div className="row grid-part text-center pt-4">
           <div className="col-md-2 col-4">

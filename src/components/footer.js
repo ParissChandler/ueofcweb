@@ -79,14 +79,14 @@ const Footer = ({}) => {
               </ul>
             </div>
 
-            <div className="copy_right mx-md-auto mb-md-0 mb-3">
+            {/* <div className="copy_right mx-md-auto mb-md-0 mb-3">
               <p className="text-bl let">
                 © 2019 Runbytech. All rights reserved | Design by
                 <a href="http://w3layouts.com/" target="_blank">
                   W3layouts
                 </a>
               </p>
-            </div>
+            </div> */}
 
             <a href="#home" className="move-top text-center">
               <i className="fa fa-level-up-alt" aria-hidden="true"></i>

@@ -109,8 +109,6 @@ const ContactPage = () => (
         </div>
       </div>
     </div>
-
-    <div class="w3l-map p-4 map-background"></div>
   </Layout>
 )
 
